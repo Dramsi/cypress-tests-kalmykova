@@ -10,18 +10,25 @@ NodeJS 18.12
 # To run tests  
 `npm run test`
 
-# Assignment  
-Congratulations! You just got hired to your first unicorn startup company.  
-Your new company just finished developing the latest feature called "Your average form".  
-![Your average form image](public/webpage.jpg)  
-Your task is to to cover "Your average form" with automated tests using [Cypress.io](https://cypress.io),  
-or any other testing framework of your choice.  
-Here's a general TODO list:
-- explore "Your average form" webpage
-- create testing scenarios
-- create tests for those scenarios
+# Checklist 
+Username/Password block
+- Verify that Username and Password fields are visible and required
+- Verify that value is writing in Username field
+- Verify that value is writing in Password field
 
-Although the assignment is small, it doesn't mean your code quality can be poor.  
-Make sure to format your code properly and use the page object pattern.  
+Gender block
+- Verify that not checked Male and Female radio buttons
+- Verify that the Male radio button is only checked
+- Verify that the Female radio button is only checked
 
-Good luck and have fun!
+Hobbies block
+- Verify that checkboxes are visible and clickable separately from each other
+- Verify that checkboxes are visible and clickable together
+
+Time block
+- Verify that Time dropdown is visible and required
+- Verify Time dropdown items are selectable
+
+Submit button
+- Verify that Submit button is visible and enabled
+- Verify all results on Results page
